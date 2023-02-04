@@ -15,15 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1.cpp">
+    <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <MASM Include="1.asm">
-      <Filter>Source Files</Filter>
-    </MASM>
-    <MASM Include="2.asm">
+    <MASM Include="asm.asm">
       <Filter>Source Files</Filter>
     </MASM>
   </ItemGroup>
