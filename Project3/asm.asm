@@ -2,12 +2,14 @@
 vardd sqword 65
 
 .code
-SomeFunction proc
+TestFunction proc
 	
-	mov al, 255
-	inc al
+	mov eax, 1001100010011b
+	mov ecx, 1001000010010b
+
+	and eax, ecx
 
 	ret
 
-SomeFunction endp
+TestFunction endp
 end

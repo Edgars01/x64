@@ -2,12 +2,22 @@
 
 using namespace std;
 
-extern "C" void SomeFunction();
+void PrintBinary(int i)
+{
+	for (int s = 15; s >= 0; s--)
+		cout << ((i >> s) & 1);
 
-int main() {
+	cout<<endl;
+}
 
-	SomeFunction();
+extern "C" int TestFunction();
+
+
+int main() 
+{
+	PrintBinary(TestFunction());
+
+	cin.get();
 
 	return 0;
-
 }
