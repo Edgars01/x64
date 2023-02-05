@@ -1,12 +1,13 @@
 .data
-myByte db 78
-myWord dw ?
-
-hjkjher real4 89.5
+vardd sqword 65
 
 .code
 SomeFunction proc
 	
+	mov al, 255
+	inc al
+
 	ret
+
 SomeFunction endp
 end
