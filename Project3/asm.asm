@@ -1,6 +1,12 @@
+.data
+myByte db 78
+myWord dw ?
+
+hjkjher real4 89.5
+
 .code
 SomeFunction proc
-	mov ax, -1
+	
 	ret
 SomeFunction endp
 end
